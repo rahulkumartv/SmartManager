@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+        <h:outputStylesheet name="bootstrap/css/bootstrap.css" />
+        <h:outputStylesheet name="css/flat-ui.css"/>
+        <h:outputStylesheet name="css/style.css"/>
+        <h:outputStylesheet name="css/style.complete.css"/>                                      
+    </h:head>   
+
+
+    <header class="item header padding-top-20" id="header1" style="padding-bottom: 0px;">
+
+        <div class="wrapper">
+
+            <div class="container">
+
+                <nav role="navigation" class="navbar navbar-inverse navbar-embossed navbar-lg">
+                    <div class="navbar-header">
+                        <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                            <span class="sr-only">Toggle navigation</span>
+                        </button>
+                        <a href="#" class="navbar-brand brand"> Smart Feeder</a>
+                    </div>
+
+                    <div id="navbar-collapse-02" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">			      
+                            <li class="active propClone"><a href="#">Home</a></li>                            
+                            <li class="propClone"><a href="#">Blog</a></li>
+                            <li class="propClone"><a href="#">Contact</a></li>
+							<li class="propClone">
+                                <a href="http://localhost:8080/SmartManager/faces/index.xhtml">Logout <span class="fa fa-lock">                                        
+
+                                    </span></a>
+                            </li>
+                        </ul> 		      
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </nav>                                                                
+
+            </div><!-- /.container -->
+
+        </div><!-- /.wrapper -->
+
+    </header><!-- /.item --><!-- Start Content Block 1-3 -->
+    <h:body>
+        <div id="page" class="page">
+            <section id="content-1-3" class="content-block content-1-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- content  -->
+                            <div class="text-center well1">  
+                                <!-- new row -->
+                                <div class = "row toppadding" >
+				    <!--abstract div for larger cables, only visible in largest screens >1200px width -->
+                                    <div class="col-lg-0 visible-lg ">		
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="larger-cable cable1"/>
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="larger-cable cable2" />
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="larger-cable cable3" />
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="larger-cable cable4" />                                        
+                                    </div>
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6 ">		
+                                        <!--<img src="./img/big.gif" class="big" alt=""/>-->
+                                        <object id="P0001" class="pole"  data="/SmartManager/faces/javax.faces.resource/img/transformer.svg" type="image/svg+xml"></object>
+                                    </div>
+				    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6 nopadding">                                                                                        
+                                            <object id="P0002" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>                                            
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6 nopadding">
+                                        <object id="P0003" class="pole" data="/SmartManager/faces/javax.faces.resource/img/pole_1sensor.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6 nopadding ">
+                                        <object id="P0004" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <!--<img src="./img/big.gif" class="big" alt=""/>-->
+                                        <object id="P0005" class="pole" data="/SmartManager/faces/javax.faces.resource/img/transformer_2fuse_2sensor.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+				    <div class="col-lg-1 nopadding  visible-lg"> 	
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable "/>		
+                                    </div>  
+                                    
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-1 col-sm-4 col-xs-6 nopadding">    	
+                                        <object id="P0006" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg"> 	
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable "/>		
+                                    </div>    	
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <object id="P0007" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div> 
+                                </div>
+
+                                <!-- ANOTHER ROW -->
+                                <div class = "row toppadding">
+                                    <!-- 4 space -->
+                                    <div class="col-lg-offset-3 col-md-offset-3 col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <object id="P0008" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <object id="P0009" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>							
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <object id="P0010" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+                                    <!-- 3 space -->
+                                    <div class="col-lg-1 col-lg-offset-2 col-md-1 col-sm-3 col-xs-6 nopadding">	
+
+                                    </div>							   				
+                                </div>    					
+
+                                <!-- ANOTHER ROW -->
+
+                                <div class = "row toppadding">
+                                    <!-- 1 space -->
+                                    <div class="col-lg- col-md-1 col-sm-3 col-xs-6 nopadding">		
+                                        <object id="P0011" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+				    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+                                    
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6 nopadding">
+                                        <object id="P0012" class="pole" data="/SmartManager/faces/javax.faces.resource/img/pole_1sensor.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-3 col-xs-6 nopadding">
+                                        <object id="P0013" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-1 col-sm-3 col-xs-6 nopadding">
+                                        <object id="P0014" class="pole" data="/SmartManager/faces/javax.faces.resource/img/transformer_2fuse_2sensor.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <!--<img src="./img/big.gif" class="big" alt=""/>-->
+                                        <object id="P0015" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+					<!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg">
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">    	
+                                        <object id="P0016" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div>
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 nopadding  visible-lg"> 	
+                                        <img src="/SmartManager/faces/javax.faces.resource/img/energy.gif" alt="" class="cable"/>		
+                                    </div>    	
+
+                                    <!-- 1 space -->
+                                    <div class="col-lg-1 col-md-2 col-sm-4 col-xs-6 nopadding">
+                                        <object id="P0017" class="pole" data="/SmartManager/faces/javax.faces.resource/img/poste.svg" type="image/svg+xml"></object>
+                                    </div> 
+                                </div>
+
+                            </div><!-- /.content gray-->    		
+                           
+                           
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+
+            <!--// END Content Block 1-3 --><!-- Start Footer 1-1 -->
+            <section class="content-block-nopad bg-deepocean">
+                <div class="container footer-1-1">
+                    <div class="row">
+
+                        <div class="col-sm-5">
+                            
+                        </div>
+
+                        <div class="col-sm-6 col-sm-offset-1">
+                            
+                        </div>
+
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+            <!--// END Footer 1-1 --></div><!-- /#page -->
+
+
+        <!-- Load JS here for greater good =============================-->
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery-1.8.3.min.js" type="text/javascript" ></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery.ui.touch-punch.min.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/bootstrap.min.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/bootstrap-select.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/bootstrap-switch.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/flatui-checkbox.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/flatui-radio.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery.tagsinput.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery.placeholder.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/jquery.nivo.slider.pack.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/application.js"></script>
+        <script src="/SmartManager/faces/javax.faces.resource/js/over.js"></script>
+        <script>
+                                            $(function () {
+
+                                                if ($('#nivoSlider').size() > 0) {
+
+                                                    $('#nivoSlider').nivoSlider({
+                                                        effect: 'random',
+                                                        pauseTime: 5000
+                                                    });
+
+                                                }
+
+                                            })
+        </script>
+
+<!--    MAIN METHOD   
+        REFERS POLES IDENTITIES (FROM p1 to p17)
+-->
+        <script>
+             window.onload = function () {
+                //var svgDoc = $('#p5')[0].contentDocument; // Get the document object for the SVG                
+                // Function to access the restful web service
+				 getService();
+                function getService() {
+				
+				   var sensors = [];
+				   var sensorsvalues = [];
+				   var fuses = [];
+				   var fusesvalues = [];
+				   var poles = [];
+				   var polevalues = [];
+				    var sensorspair = {};
+					 var fusespair = {};
+				   jQuery.ajax({
+                        type: "GET",
+                        url: "http://localhost:8080/SmartManager/sfem/station/fuses",
+                        contentType: "application/xml; charset=utf-8",
+                        dataType: "xml",
+                        success: function parseXml(xml)
+						{	
+							var index =0 ;
+							
+								$(xml).find('id').each(function()
+								{
+								
+								fuses[index] = $(this).text();
+								index++;
+								});
+								index = 0;
+								$(xml).find('data').each(function()
+								{
+								
+								fusesvalues[index]= $(this).text();
+								index++;
+								});
+							jQuery.each( fuses, function( indx, val )
+							 {
+							 
+							 fusespair[fuses[indx]] = fusesvalues[indx];
+							 });								
+							 
+                        },
+                        error: function (jqXHR) {
+                            // error handler
+                        }
+                        
+                    });
+					jQuery.ajax({
+                        type: "GET",
+                        url: "http://localhost:8080/SmartManager/sfem/station/sensors",
+                        contentType: "application/xml; charset=utf-8",
+                        dataType: "xml",
+                        success: function parseXml(xml)
+						{	
+							var index =0 ;
+							
+								$(xml).find('id').each(function()
+								{
+								
+								sensors[index] = $(this).text();
+								index++;
+								});
+								index = 0;
+								$(xml).find('data').each(function()
+								{
+								
+								sensorsvalues[index]= $(this).text();
+								index++;
+								});						
+							 jQuery.each( sensors, function( indx, val )
+							 {
+							 sensorspair[sensors[indx]] = sensorsvalues[indx];
+							 });
+                        },
+                        error: function (jqXHR) {
+                            // error handler
+                        }
+                        
+                    });
+                    jQuery.ajax({
+                        type: "GET",
+                        url: "http://localhost:8080/SmartManager/sfem/station/poles",
+                        contentType: "application/xml; charset=utf-8",
+                        dataType: "xml",
+                        success: function parseXml(xml)
+						{						
+							
+							var index =0 ;
+							
+								$(xml).find('id').each(function()
+								{
+								//console.log($(this).text());
+								poles[index] = $(this).text();
+								index++;
+								});
+								index = 0;
+								$(xml).find('data').each(function()
+								{
+								//console.log($(this).text());
+								polevalues[index]= $(this).text();
+								index++;
+								});
+								jQuery.each( poles, function( indx, val )
+								{
+									var str = '#' + poles[indx] ;
+									//alert(str);
+									var svgDoc = $(str)[0].contentDocument;
+									
+									 if( polevalues[indx] != "1")
+									 {
+									 $('#pole #color_xA0_Image_1_ g g #e', svgDoc).css('animation', 'beat-warning 1.5s infinite linear');
+									 //
+									
+										 if( poles[indx] == "P0001")
+										 {
+											 if( fusespair["F0001"] == "0")
+											 {
+											 $('#pole #fuse', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+										 if( sensorspair["S0001"] == "0")
+											 {
+												$('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+										 }
+									 //
+										 if( poles[indx] == "P0003")
+										 {
+											 if( sensorspair["S0002"] == "0")
+											 {
+												$('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }									
+										 }
+									
+										 if( poles[indx] == "P0005")
+										 {
+											 if( fusespair["F0002"] == "0")
+											 {
+											 $('#pole #fuse', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+											 if( fusespair["F0003"] == "0")
+											 {
+												$('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+										 
+											  if( sensorspair["S0003"] == "0")
+											  {
+											  $('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											  }
+											  if( sensorspair["S0004"] == "0")
+											  {
+												$('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											  }
+									 
+										}
+									 
+										 if( poles[indx] == "P0012"){
+											 if( sensorspair["S0007"] == "0")
+											 {
+												$('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }									
+										 }
+									 
+										 if( poles[indx] == "P0014")
+										 {
+											 if( fusespair["F0005"] == "0")
+											 {
+											 $('#pole #fuse', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+										 if( fusespair["F0004"] == "0")
+											 {
+												$('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+											 }
+										 
+										  if( sensorspair["S0005"] == "0")
+											  {
+											  $('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											  }
+										  if( sensorspair["S0006"] == "0")
+											  {
+												$('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+											  }
+										 
+										 }
+									
+									 
+									
+									 //fuse
+									 //$('#pole #fuse', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+									//fuse1
+									//$('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+									
+									//sensor
+									//$('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+									//sensor1
+									//$('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+									 
+									 
+									 }
+									  if( poles[indx] == "P0005")
+									  {
+										  if( fusespair["F0003"] == "0")
+										  {
+										  $('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+									      }
+									 
+										  if( sensorspair["S0004"] == "0")
+										  {
+										  $('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+										  }
+									  }
+									   if( poles[indx] == "P0014")
+									   {
+									      if( fusespair["F0004"] == "0")
+										  {
+										  $('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+										  }
+										 if( sensorspair["S0006"] == "0")
+										  {
+										  $('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+										  }
+									  }
+								});
+								
+							
+							 
+                        },
+                        error: function (jqXHR) {
+                            // error handler
+                        }
+                        	
+                    });
+                };
+
+                //console.log('invoking get');
+                
+                //METHOD TO CHANGE THE COLOR
+                //energy
+               // $('#pole #color_xA0_Image_1_ g g #e', svgDoc).css('animation', 'beat-warning 1.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+                //fuse
+               // $('#pole #fuse', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+                //fuse1
+               // $('#pole #fuse1', svgDoc).css('animation', 'beat-warning 1s infinite linear'); // Manipulate the SVG to your heart’s content!
+                //sensor
+               // $('#pole #sensor', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+                //sensor1
+               // $('#pole #sensor1', svgDoc).css('animation', 'beat-warning 0.5s infinite linear'); // Manipulate the SVG to your heart’s content!
+            };            
+        </script>                       
+    </h:body>
+</html>

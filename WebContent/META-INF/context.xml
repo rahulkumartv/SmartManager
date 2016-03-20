@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+        name="jdbc/SmartManagerDB"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="SmartManager"
+        password="sfem"
+        driverClassName="org.apache.derby.jdbc.EmbeddedDriver"
+        url="jdbc:derby:SmartManagerDB"/>
+</Context>
