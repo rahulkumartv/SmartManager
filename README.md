@@ -1,2 +1,0 @@
-# SmartManager
-It Overview Projects
